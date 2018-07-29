@@ -1,0 +1,55 @@
+.loginBox{
+  height: 93%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  .loginContain{
+    width: 25rem;
+    height: 30rem;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    justify-content: space-between;
+    border: solid 1px #ddd;
+    box-shadow: 0 0 4px rgba(198,217,255,0.91);
+    .logo{
+      width: 100px;
+      height: 100px;
+      border: solid 1px #ddd;
+      margin-top: -50px;
+      border-radius: 50px;
+      font-size: 1.2rem;
+      font-weight: 600;
+      background: #fff;
+      box-shadow: 0 0 4px #333333;
+    }
+    .loginBtn{
+      width: 100px;
+      height: 36px;
+      line-height: 36px;
+      margin-bottom: 2rem;
+    }
+    .Box{
+      width: 100%;
+      padding: 0 15%;
+      .item{
+        margin-bottom: 1.5rem;
+        .content{
+          width: 5rem;
+          text-align: left;
+        }
+        .value{
+          flex: 1;
+          height: 2.5rem;
+          outline: none;
+          border: solid 1px #ddd;
+          padding: 0 10px;
+        }
+        .value:focus{
+          border: solid 1px rgba(86,197,255,0.91);
+        }
+      }
+    }
+  }
+}

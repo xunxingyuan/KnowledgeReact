@@ -1,13 +1,14 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
+
 
 const Header = () => {
-	let user = window.sessionStorage.getItem('user')
 	return (
 		<div className={'header'}>
 			<p className={'logo'}>U Know</p>
-			<div>
-				<span>主页</span>
-				<span>登录</span>
+			<div className={'nav'}>
+				<span><Link to="/">首页</Link></span>
+				<span><Link to="/login">登录</Link></span>
 				<span>关于</span>
 			</div>
 		</div>

@@ -4,7 +4,7 @@ const Home = (props) => {
 	console.log(props)
 	return (
 		<div>
-			<h1>Welcome to the Tornadoes Website!</h1>
+			<h1>Welcome to the U Know</h1>
 		</div>
 	)
 }
